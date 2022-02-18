@@ -1,0 +1,28 @@
+Python --Interpreter
+
+What is Compiler?
+Eg; C++ => Assembly (intermediate or Byte code) => Machine or Native Code (low-level code)
+
+Compiler first executes intermediate code from the high level source code and finally execute native codes 
+from that intermediate code.
+Native code can be directly run on CPU.
+
+What is Interpreter?
+no native code (machine code) during execution.
+Source code => byte code in memory => directly execute bytes
+*** Interpreter execute the byte codes line by line, not the source codes
+eg; Byte code can be executed on stack based VM or Interpreter
+
+Byte Code a+b*c
+push a
+push b
+push c 
+*
++
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+Python Naming Conventions
+Class = CamelCase, UpperCase
+others = lowercase_
+constant = ALLCAPITAL
